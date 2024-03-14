@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "deploy": "astro build --remote",
     "astro": "astro"
   },
   "dependencies": {
