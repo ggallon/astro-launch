@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "deploy": "astro build --remote",
+    "vercel": "astro build --remote",
     "astro": "astro"
   },
   "dependencies": {
