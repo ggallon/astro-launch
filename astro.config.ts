@@ -15,4 +15,11 @@ export default defineConfig({
   adapter: vercel({
     webAnalytics: { enabled: true },
   }),
+  experimental: {
+    security: {
+      csrfProtection: {
+        origin: true,
+      },
+    },
+  },
 });
